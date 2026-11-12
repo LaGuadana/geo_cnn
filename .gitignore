@@ -1,0 +1,17 @@
+# Raw OSV-5M downloads (~3.3 GB) — re-fetch with the commands in README.md §2
+data/raw/
+
+# Virtualenv — rebuild with README.md §1
+.venv/
+
+# Install / download logs
+data/pip*.log
+data/dl_*.log
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
